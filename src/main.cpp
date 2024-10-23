@@ -4,10 +4,7 @@
 #include <esp_wpa2.h> //wpa2 library for connections to Enterprise networks
 #include <Adafruit_NeoPixel.h>
 #include <TFT_eSPI.h>
-
-const char *ssid = "UHasselt";
-const char *password = "malay-few-bluer";
-const char *identity = "visitor-5356";
+#include "secrets.h"
 
 uint8_t ConnectWiFi(void);
 
