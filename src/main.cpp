@@ -6,8 +6,8 @@
 #include <TFT_eSPI.h>
 
 const char *ssid = "UHasselt";
-const char *password = "valve-pack-feels";
-const char *identity = "visitor-3958";
+const char *password = "malay-few-bluer";
+const char *identity = "visitor-5356";
 
 uint8_t ConnectWiFi(void);
 
